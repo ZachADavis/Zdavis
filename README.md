@@ -1,1 +1,2 @@
 # Zdavis
+My money.py script is a function that I wrote to assist me with budgeting my paychecks. I wrote it so that when the money function is called and provided hours and othours as parameters it will calculate how much usable income I would recieve from the paycheck. I plan to update it with monthly bills and proper budgeting for example: groceries, food, savings, car payments etc. Eventually have it write to a database that I can then compare previous months.
