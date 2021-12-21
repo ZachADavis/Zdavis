@@ -1,5 +1,5 @@
 def money(hours, ot_hours):
-	normal_hourly = input("How much do you make an hour? ")
+	normal_hourly = int(input("How much do you make an hour? "))
 	overtime_hourly = normal_hourly + normal_hourly/2
 	normal_hours = hours
 	overtime_hours = ot_hours
