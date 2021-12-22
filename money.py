@@ -1,6 +1,6 @@
 def money(hours, ot_hours):
 	hourly = int(input("How much do you make an hour? "))
-	ot_hourly = hourly + (hourly/2)
+	ot_hourly = hourly * 1.5
 	benefits = int(input("How much do you pay in benefits? "))
 	taxes = .1839
 	fica_tax = .0765
