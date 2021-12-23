@@ -4,7 +4,7 @@ def money(hours, ot_hours):
 	benefits = int(input("How much do you pay in benefits? "))
 	taxes = .1839
 	fica_tax = .0765
-	pay = hours * normal_hourly
+	pay = hours * hourly
 	taxed = (pay * taxes)
 	fica = (pay * fica_tax)
 	total_tax = taxed + fica
@@ -13,5 +13,5 @@ def money(hours, ot_hours):
 	overtime_pay = ot_hours * ot_hourly
 	overtime_total = overtime_pay
 	total_pay = total + overtime_total
-	return normal_total_clean, overtime_total
-print(money(0, 0))
+	return total_clean, overtime_total
+print(money())
